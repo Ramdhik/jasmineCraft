@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
+import { Stalemate, Poly } from "next/font/google"; // Import font Poly
 import "./globals.css";
+import Navbar from "../../component/navbar/page";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -10,6 +12,23 @@ const geistSans = Geist({
 const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
   subsets: ["latin"],
+});
+
+// Konfigurasi font Stalemate
+const stalemate = Stalemate({
+  weight: "400",
+  variable: "--font-stalemate",
+  subsets: ["latin"],
+  display: "swap",
+});
+
+// Konfigurasi font Poly
+const poly = Poly({
+  weight: ["400", "400"], // Poly memiliki weight '400' untuk regular dan italic
+  style: ["normal", "italic"], // Tentukan style yang tersedia
+  variable: "--font-poly",
+  subsets: ["latin"],
+  display: "swap",
 });
 
 export const metadata: Metadata = {
@@ -25,8 +44,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} ${stalemate.variable} ${poly.variable} antialiased`}
+        style={{ fontFamily: "var(--font-poly)" }} // Atur font default menjadi Poly
       >
+        <Navbar /> 
         {children}
       </body>
     </html>

@@ -20,7 +20,6 @@ const TestimonialCard = ({ item }: { item: TestimonialItem; index: number }) => 
       // priority // Tambahkan ini jika ikon ini penting dan harus dimuat cepat
     />
     <div className="flex items-center mb-4 mt-4">
-      <Image src={item.image} alt={item.name} width={120} height={120} className="w-12 h-12 rounded-full mr-4 object-cover border-2 border-purple-200" />
       <div>
         <p className="font-semibold text-gray-800 text-sm">{item.name}</p>
         <p className="text-xs text-purple-600 font-medium">{item.jobTitle}</p>

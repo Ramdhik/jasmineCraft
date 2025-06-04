@@ -1,4 +1,4 @@
-import Marquee from "@/components/marquee/page";
+
 import About from "../components/about/page";
 import Collection from "../components/collection/page";
 import Hero from "../components/hero/page";

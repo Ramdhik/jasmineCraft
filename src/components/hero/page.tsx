@@ -37,7 +37,7 @@ export default function Hero() {
             </h2>
             <hr className="border-t border-purple-500 my-6 w-[65%] mx-auto lg:mx-0" /> 
             <p className="text-lg text-gray-700 mb-8 leading-relaxed">
-              Each gift we create is more than just a bouquet — it's a heartfelt expression wrapped in petals and colors. Born from passion, crafted with care, and touched with a hint of magic, our floral creations are made to spark joy,
+              Each gift we create is more than just a bouquet — its a heartfelt expression wrapped in petals and colors. Born from passion, crafted with care, and touched with a hint of magic, our floral creations are made to spark joy,
               stir emotions, and turn ordinary moments into lasting memories. At the heart of every arrangement lies our love pure, thoughtful, and genuine — because we believe that the most magical gifts are those made with love.
             </p>
             <Link href="#collection">

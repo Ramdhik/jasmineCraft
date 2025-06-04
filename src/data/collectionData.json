@@ -3,36 +3,56 @@
     "name": "Paket Spesial - Graduation Bucket",
     "price": 60000,
     "description": "1 boneka wisuda mini + 2 bunga artificial, cocok sebagai hadiah kelulusan.",
-    "image": "/flower.png"
+    "image": "/graduation_special.jpg"
   },
   {
     "name": "Paket Spesial ~ Pipe Cleaner Bucket",
     "price": 60000,
     "description": "Berisi 5 bunga pipe cleaner handmade dengan tampilan unik dan lucu.",
-    "image": "/flower.png"
+    "image": "/pipe_special.jpg"
   },
-    {
-      "name": "Paket Spesial ~ Butterfly Bucket",
-      "price": 60000,
-      "description": "Berisi hiasan kupu-kupu pastel + 2 bunga pipe cleaner dengan tampilan manis dan dreamy.",
-      "image": "/flower.png"
-    },
+  {
+    "name": "Paket Spesial ~ Butterfly Bucket",
+    "price": 60000,
+    "description": "Berisi hiasan kupu-kupu pastel + 2 bunga pipe cleaner dengan tampilan manis dan dreamy.",
+    "image": "/butterfly_special.jpg"
+  },
+  {
+    "name": "Paket Spesial ~ Flower Bucket",
+    "price": 60000,
+    "description": "Berisi 5 bunga artificial yang cantik dan lucu",
+    "image": "/flower_special.jpg"
+  },
+
   {
     "name": "Bucket Uang | 10-15 lembar",
     "price": 55000,
     "description": "Bucket yang dilengkapi 2 bunga artificial. uang belum termasuk isi uang, Custom isi dari customer.",
-    "image": "/flower.png"
+    "image": "/money.jpg"
+  },
+
+  {
+    "name": "Mini Pipe Cleaner Bucket",
+    "price": 20000,
+    "description": "Mini bucket yang berisi 1 bunga pipe cleaner. Berisi warna yang unik.",
+    "image": "/mini_pipe.jpg"
   },
   {
     "name": "Custom Bucket",
     "price": 45000,
     "description": "Custom bucket mulai dari Rp45.000. Bisa request tema, warna, jumlah bunga, boneka, dll.",
-    "image": "/flower.png"
+    "image": "/custom.jpg"
+  },
+  {
+    "name": "Mini Flower Bucket",
+    "price": 15000,
+    "description": "Mini bucket yang berisi 1 bunga artificial. Berisi warna yang unik.",
+    "image": "/mini_flower.jpg"
   },
   {
     "name": "Snack Custom",
     "price": 50000,
     "description": "Buket snack dengan isian dan wrapping sesuai request. Harga belum termasuk snack.",
-    "image": "/flower.png"
+    "image": "/snack.jpg"
   }
 ]

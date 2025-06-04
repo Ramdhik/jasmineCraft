@@ -39,14 +39,23 @@ export default function Collection() {
           <ChevronRight size={24} />
         </button>
       </div>
-      <div className="overflow-hidden p-4">
+      <div className="overflow-hidden p-6">
         <div className="flex transition-transform duration-500 ease-in-out" style={{ transform: `translateX(-${currentIndex * (100 / itemsPerPage)}%)` }}>
           {collectionData.concat(collectionData).map((flower, index) => (
             <div key={index} className="min-w-1/4">
               <Dialog>
                 <DialogTrigger asChild>
                   <button className={`bg-white p-6 shadow-md transform transition-transform duration-300 hover:scale-105 cursor-pointer ${index % 2 === 0 ? 'rotate-4' : '-rotate-2'} mx-10`}>
-                    <Image src={flower.image} alt={flower.name} width={250} height={250} />
+                    <div className="relative w-full h-60">
+                      {' '}
+                      {/* Contoh: Lebar 100%, tinggi 48 (192px) */}
+                      <Image
+                        src={flower.image}
+                        alt={flower.name}
+                        fill // Mengisi parent div
+                        className="object-cover" // Memastikan gambar mengisi tanpa terdistorsi
+                      />
+                    </div>
                     <div className="mt-4">
                       <h3 className="text-xl font-semibold">{flower.name}</h3>
                       <p className="text-gray-500">{formatRupiah(flower.price)}</p>

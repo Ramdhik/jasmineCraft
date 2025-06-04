@@ -1,14 +1,18 @@
-
+import Marquee from "@/components/marquee/page";
+import About from "../components/about/page";
+import Collection from "../components/collection/page";
+import Hero from "../components/hero/page";
+import Testimoni from "@/components/testimoni/page";
+import Footer from "@/components/footer/page";
 
 export default function Home() {
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen py-2">
-
-      <h1 className="text-3xl font-bold">Jasmin IdCraft</h1>
-      <p className="text-gray-600">
-        Jasmin IdCraft is a platform for creating and sharing your own
-        digital art.
-      </p>
-    </div>
+    <>
+    <Hero />
+    <About />
+    <Collection />
+    <Testimoni />
+    <Footer />
+    </>
   )
 }

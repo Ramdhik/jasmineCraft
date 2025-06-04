@@ -1,6 +1,6 @@
 'use client'; // Pastikan ini ada jika menggunakan fitur Client Component Next.js
-import Autoplay from "embla-carousel-autoplay"
-import React from "react";
+import Autoplay from 'embla-carousel-autoplay';
+import React from 'react';
 import Image from 'next/image';
 import { Dialog, DialogTrigger, DialogContent, DialogTitle } from '../ui/dialog'; // Asumsi ini adalah komponen Dialog Shadcn UI atau yang kompatibel
 import collectionData from '../../data/collectionData.json'; // Data Anda
@@ -68,13 +68,13 @@ export default function Collection() {
                   </DialogTrigger>
                   {/* DialogContent tetap sama */}
                   <DialogContent>
-                    <div className="flex flex-col md:flex-row">
+                    <div className="flex flex-col md:flex-row ">
                       <Image src={flower.image} alt={flower.name} width={250} height={250} className="mr-4 object-cover rounded-md mb-4 md:mb-0" /> {/* Sesuaikan ukuran dan style image di dialog */}
                       <div>
                         <DialogTitle>{flower.name} Details</DialogTitle>
                         <div className="p-4">
                           <p className="text-gray-500">{flower.description}</p>
-                          <button onClick={() => window.open('https://wa.me/085921673628', '_blank')} className="flex items-center bg-green-500 text-white px-4 py-2 mt-4 rounded hover:bg-green-600">
+                          <button onClick={() => window.open('https://wa.me/6285921673628', '_blank')} className="flex items-center bg-green-500 text-white px-4 py-2 mt-4 rounded hover:bg-green-600">
                             <LogoWhatsapp color="white" height="20px" width="20px" className="mr-2" />
                             Order via WhatsApp
                           </button>

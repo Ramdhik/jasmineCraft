@@ -19,7 +19,7 @@ export default function Navbar() {
           </h1>
           <div className="w-24 h-px bg-purple-300 ml-4"></div> {/* Garis kanan */}
         </div>
-        <p className="lg:text-sm text-sm text-purple-500 mt-1">Artificial Flowers, Snack, Money, & Graduation Bouquet ,etc</p>
+        <p className="lg:text-sm text-sm text-purple-500 mt-1">Artificial Flowers, Snack, Money, Graduation, Bouquet, etc</p>
       </div>
     </nav>
   );

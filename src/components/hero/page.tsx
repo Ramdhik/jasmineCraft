@@ -40,7 +40,7 @@ export default function Hero() {
               Each gift we create is more than just a bouquet — it's a heartfelt expression wrapped in petals and colors. Born from passion, crafted with care, and touched with a hint of magic, our floral creations are made to spark joy,
               stir emotions, and turn ordinary moments into lasting memories. At the heart of every arrangement lies our love pure, thoughtful, and genuine — because we believe that the most magical gifts are those made with love.
             </p>
-            <Link href="/collection">
+            <Link href="#collection">
               <button className="inline-flex items-center px-8 py-4 text-white bg-purple-500 rounded-full hover:bg-purple-700 transition duration-300 ease-in-out shadow-lg">
                 Our Beautiful Collection
                 {/* Ganti SVG dengan komponen ArrowRight dari Lucid React */}

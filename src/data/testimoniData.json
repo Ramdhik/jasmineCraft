@@ -1,0 +1,62 @@
+[
+  {
+    "name": "John Doe",
+    "jobTitle": "Software Engineer",
+    "testimonial": "This is a fantastic product! It has greatly improved my workflow.",
+    "image": "/john_doe.png"
+  },
+  {
+    "name": "Jane Smith",
+    "jobTitle": "Product Manager",
+    "testimonial": "I love using this product every day. It's a game changer!",
+    "image": "/jane_smith.png"
+  },
+  {
+    "name": "Alice Johnson",
+    "jobTitle": "Designer",
+    "testimonial": "The design and functionality are top-notch. Highly recommend!",
+    "image": "/alice_johnson.png"
+  },
+  {
+    "name": "Sarah Wilson",
+    "jobTitle": "Marketing Director",
+    "testimonial": "JasminIdCraft created the most beautiful graduation bouquet for my daughter. The attention to detail was incredible!",
+    "image": "/sarah_wilson.png"
+  },
+  {
+    "name": "Michael Chen",
+    "jobTitle": "Business Owner",
+    "testimonial": "Their artificial flowers look so realistic! Perfect for our office decoration that lasts all year round.",
+    "image": "/michael_chen.png"
+  },
+  {
+    "name": "Emily Rodriguez",
+    "jobTitle": "Event Planner",
+    "testimonial": "I've used JasminIdCraft for multiple weddings. Their flower arrangements never disappoint my clients!",
+    "image": "/emily_rodriguez.png"
+  },
+  {
+    "name": "David Thompson",
+    "jobTitle": "Teacher",
+    "testimonial": "The money bouquet for my wife's promotion was such a creative and thoughtful gift. She absolutely loved it!",
+    "image": "/david_thompson.png"
+  },
+  {
+    "name": "Lisa Park",
+    "jobTitle": "Interior Designer",
+    "testimonial": "Quality is outstanding! These artificial flowers maintain their beauty for months without any maintenance.",
+    "image": "/lisa_park.png"
+  },
+  {
+    "name": "Robert Martinez",
+    "jobTitle": "Restaurant Manager",
+    "testimonial": "Perfect for our restaurant ambiance. Customers always compliment the beautiful floral arrangements!",
+    "image": "/robert_martinez.png"
+  },
+  {
+    "name": "Amanda Foster",
+    "jobTitle": "Wedding Coordinator",
+    "testimonial": "JasminIdCraft's snack bouquets are always a hit at our events. Creative, delicious, and beautifully presented!",
+    "image": "/amanda_foster.png"
+  }
+] 

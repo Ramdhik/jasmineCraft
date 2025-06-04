@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 export default function About() {
   return (
-    <div className="relative w-full h-[80vh] bg-purple-100">
+    <div className="relative w-full h-[90vh] bg-purple-100">
       <div className="relative z-20 flex items-center justify-center h-full ">
         <div className="container mx-auto flex flex-col lg:flex-row items-center px-12">
           {/* Left Side: Grid of Images */}
@@ -27,7 +27,8 @@ export default function About() {
               Through Arrangement.
             </h2>
             <p className="text-lg text-gray-700 mb-8 leading-relaxed">
-              Since 2025, we began our journey with limited resources but ambitious dreams. We take pride in crafting floral arrangements that reflect simplicity and thoughtful detail. With continuous improvements in our products and services, our custom bouquets are ideal for all kinds of events from celebrations and graduations and beyond.
+              Since 2025, we began our journey with limited resources but ambitious dreams. We take pride in crafting floral arrangements that reflect simplicity and thoughtful detail. With continuous improvements in our products and
+              services, our custom bouquets are ideal for all kinds of events from celebrations and graduations and beyond.
             </p>
           </div>
         </div>

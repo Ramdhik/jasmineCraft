@@ -15,7 +15,7 @@ const poly = Poly({
 
 export default function Hero() {
   return (
-    <div className="relative w-full h-[90vh]">
+    <div className="relative w-full lg:h-[90vh]">
       {/* Background Image */}
       <Image
         src="/hero.png"
@@ -30,13 +30,13 @@ export default function Hero() {
         <div className="container mx-auto flex flex-col lg:flex-row items-center px-10 mt-24">
           {/* Left Side: Text Content */}
           <div className={`lg:w-1/2 text-center lg:text-left mb-8 lg:mb-0 pr-0 lg:pr-12 ${poly.variable}`} style={{ fontFamily: 'var(--font-poly)' }}>
-            <h2 className="text-5xl md:text-6xl font-bold text-gray-800 leading-tight mb-4">
+            <h2 className="text-3xl md:text-6xl font-bold text-gray-800 leading-tight mb-4">
               Magical <span className="text-purple-500">Gifts</span>
               <br />
               Made with <span className="text-purple-500">Love</span>
             </h2>
-            <hr className="border-t border-purple-500 my-6 w-[65%] mx-auto lg:mx-0" /> 
-            <p className="text-lg text-gray-700 mb-8 leading-relaxed">
+            <hr className="border-t border-purple-500 my-6 w-[65%] mx-auto lg:mx-0" />
+            <p className="lg:text-lg text-gray-700 mb-8 leading-relaxed">
               Each gift we create is more than just a bouquet — its a heartfelt expression wrapped in petals and colors. Born from passion, crafted with care, and touched with a hint of magic, our floral creations are made to spark joy,
               stir emotions, and turn ordinary moments into lasting memories. At the heart of every arrangement lies our love pure, thoughtful, and genuine — because we believe that the most magical gifts are those made with love.
             </p>
